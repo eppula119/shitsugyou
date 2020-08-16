@@ -39,7 +39,7 @@
               <li class="p-menuList__item">
                 <form action="" method="POST">
                   @csrf
-                  <button type="submit" class="p-logout"></button>
+                  <button type="submit" class="p-logout c-btn"></button>
                 </form>
               </li>
             </ul>
@@ -49,8 +49,23 @@
     </div>
   </div>
 </header>
+
 <!------------------------------------- メイン画面 ----------------------------------------------->
+
 <main class="l-main">
+  <div class="p-startWrap">
+    <img src="" alt="" class="p-startWrap__img p-neaterImg">
+    <div class="p-startWrap__content">
+      <p class="p-startComment">
+        メンドクセーけど、お前はお金もらえるか俺が教えてやるよ。めんどくさいな。。。
+      </p>
+      <form action="" class="p-startForm">
+        <input type="checkbox" class="p-startForm__check"><span class="p-startForm__rule"><a href="#" class="p-ruleLink">利用規約</a>に同意</span>
+        <button class="p-startForm__btn c-btn">始める</button>
+      </form>
+
+    </div>
+  </div>
 
   <section id="ideas">
   
@@ -111,13 +126,7 @@
 </main>
 
 
-<div class="l-footer">
-    <ul class="p-footerMenu">
-      <li class="p-footerMenu__list">特定商取引法</li>
-      <li class="p-footerMenu__list">プライバシーポリシー</li>
-      <li class="p-footerMenu__list">Inspiration</li>
-    </ul>
-</div>
+
 
 </body>
 </html>
