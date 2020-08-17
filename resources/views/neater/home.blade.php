@@ -55,7 +55,7 @@
 <main class="l-main">
   <div class="p-startWrap">
     <img src="" alt="" class="p-startWrap__img p-neaterImg">
-    <div class="p-startWrap__content">
+    <div class="p-startWrap__content c-comment">
       <p class="p-startComment">
         メンドクセーけど、お前はお金もらえるか俺が教えてやるよ。めんどくさいな。。。
       </p>
