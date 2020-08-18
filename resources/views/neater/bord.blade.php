@@ -69,19 +69,19 @@
   <div class="p-bordWrap">
     
       <div class="p-bordItem">
-        <span class="p-bordItem__category">失業手当</span>
+        <span class="p-bordItem__category c-category">失業手当</span>
         <span class="p-bordItem__text">なんでお金は減ってくの？</span>
         <span class="p-bordItem__name">あゆ</span><i class="far fa-comment p-bordItem__icon"></i><span class="p-bordItem__total">5</span>
       </div>
 
       <div class="p-bordItem">
-        <span class="p-bordItem__category">失業手当</span>
+        <span class="p-bordItem__category c-category">失業手当</span>
         <span class="p-bordItem__text">なんでお金は減ってくの？</span>
         <span class="p-bordItem__name">あゆ</span><i class="far fa-comment p-bordItem__icon"></i><span class="p-bordItem__total">5</span>
       </div>
 
       <div class="p-bordItem">
-        <span class="p-bordItem__category">失業手当</span>
+        <span class="p-bordItem__category c-category">失業手当</span>
         <span class="p-bordItem__text">なんでお金は減ってくの？</span>
         <span class="p-bordItem__name">あゆ</span><i class="far fa-comment p-bordItem__icon"></i><span class="p-bordItem__total">5</span>
       </div>
