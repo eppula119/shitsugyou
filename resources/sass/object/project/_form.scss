@@ -1,23 +1,18 @@
-// ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝　ユーザー登録　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-.p-form {
-  height: 100vh;
-  display: block;
+// ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝　認証系　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.p-authForm {
+  width: 50%;
+  margin: 0 auto;
+  background-color: $color_light100;
   position: relative;
-  overflow: hidden;
-}
-.p-formContainer {
-  width: 70%;
-  height: 78%;
-  background: rgb(255, 255, 255, 0.8);
-  border: solid 1px $color_dark050;
-  border-radius: 8px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  @include mq() {
-    width: 80%;
+  top: $space_10l;
+  &__container {
+    width: 50%;
+    margin: 0 auto;
+    padding: $space_10l 0;
+    box-sizing: border-box;
+    .p-registerLink {
+      display: block;
+      text-align: right;
+    }
   }
 }

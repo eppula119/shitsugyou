@@ -31,11 +31,13 @@
 }
 
 .c-btnRegister {
-  margin: $space_l;
+  margin: $space_s 0 $space_m 0;
   border-radius: 8px;
-  background-color: $color_main;
+  background-color: $color_sub;
   padding: $space_m 0;
   letter-spacing: 0.1em;
+  color: $color_light100;
+  font-size: $font-size_s;
 }
 
 .c-editDelteBtn {

@@ -23,7 +23,7 @@
   <div class="p-headerItem">
     <div class="p-headerItem__logo">
       <a href="" class="p-topLink">
-        <img src="#" alt="" class="p-topLink__img">
+        <img src="/images/panda.png"  alt="" class="p-topLink__img">
       </a>
     </div>
     <div class="p-headerItem__menu">
@@ -31,7 +31,6 @@
       <div class="p-headerMenu"> 
         <ul>
           <li class="p-headerMenu__list">
-            <i class="fas fa-user p-userIcon"></i>
             <ul class="p-menuList">
               <li class="p-menuList__item">マイページ</li>
               <li class="p-menuList__item">アイディ投稿</li>

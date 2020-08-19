@@ -14,10 +14,8 @@ $color_light070: rgba(255,255,255,0.70);
 $color_light030: rgba(255,255,255,0.30);
 $color_light012: rgba(255,255,255,0.12);
 
-$color_main: #BDB76B;
-$color_sub: rgb(189, 183, 107, 0.4);
-$color_star: #DAA520;
-$color_accent: #FFCCBA;
+$color_main: #FFEBCD;
+$color_sub: #ffc517;
 $color_base: $color_light100;
 $color_base--sub: #F8FCFF;
 $color_err: #FF0A0A;
@@ -27,7 +25,6 @@ $color_btn--hover: #999999;
 
 $font-color_default: $color_dark100;
 $font-color_inverted: $color_light100;
-$font-color_link: $color_base--sub;
 
 $font-size_default: 1rem;
 $font-size_xs: 1.2rem;

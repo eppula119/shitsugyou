@@ -14,20 +14,23 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 60%;
+  &__heading {
+    font-size: $font-size_s;
+  }
+  
   @include mq() {
     width: 80%;
   }
   &__input {
     box-sizing: border-box;
-    margin: $space_l;
+    margin: $space_s 0 $space_xl 0;
     padding: $space_m 0;
     padding-left: $space_s;
     border: solid 1px $color_dark050;
     border-radius: 8px;
   }
   &__label {
-    margin: 0 $space_l;
+    
     margin-top: $space_xl;
     #c-formCheck {
       vertical-align: bottom;
@@ -35,7 +38,7 @@
   }
   &__passlink {
     text-align: right;
-    margin: 0 $space_l;
+    
   }
   &__comment {
     text-align: right;
