@@ -23,6 +23,7 @@
     transform: translateY(-50%);
     top: 50%;
     .p-menuBtn {
+      color: $color_sub;
       border-radius: 8px;
       border: 1px solid $color_sub;
       padding: $space_s $space_xl;

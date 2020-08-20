@@ -456,6 +456,7 @@ h3 {
   background-color: white;
   position: relative;
   top: 100px;
+  border-radius: 8px;
 }
 
 .p-authForm__container {
@@ -463,6 +464,27 @@ h3 {
   margin: 0 auto;
   padding: 100px 0;
   box-sizing: border-box;
+}
+
+.p-authForm__container .p-authSns {
+  width: 200%;
+  padding-right: "-100px";
+  text-align: center;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #E7EAEC;
+  position: relative;
+  left: -50%;
+  margin-bottom: 60px;
+}
+
+.p-authForm__container .p-authSns__Btn {
+  color: white;
+  background-color: #87CEEB;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  width: 50%;
+  padding: 20px 0;
 }
 
 .p-authForm__container .p-registerLink {
@@ -501,6 +523,7 @@ h3 {
 }
 
 .p-headerItem__menu .p-menuBtn {
+  color: #ffc517;
   border-radius: 8px;
   border: 1px solid #ffc517;
   padding: 5px 20px;

@@ -13,7 +13,7 @@
 
   <script src="https://kit.fontawesome.com/39ab84bfc8.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap" rel="stylesheet">
-  <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 
@@ -23,7 +23,7 @@
   <div class="p-headerItem">
     <div class="p-headerItem__logo">
       <a href="" class="p-topLink">
-        <img src="#" alt="" class="p-topLink__img">
+        <img src="/images/panda.png"  alt="" class="p-topLink__img">
       </a>
     </div>
     <div class="p-headerItem__menu">
@@ -54,11 +54,10 @@
 
 <main class="l-main">
   <div class="p-authForm">
-    <div class="p-authForm__sns">
-      <button class="p-snsBtn"><i class="fab fa-twitter"></i> Twitterで登録</button>
-    </div>
-    
     <div class="p-authForm__container">
+      <div class="p-authSns">
+        <button class="p-authSns__Btn"><i class="fab fa-twitter"></i> Twitterで登録</button>
+      </div>
       <form method="post" class="c-form">
         <span class="c-form__heading">ニックネーム</span>
         <input type="text" name="name" class="c-form__input is-invalid" value="" required autocomplete="name" autofocus placeholder="例：ニーター">
