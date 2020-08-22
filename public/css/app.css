@@ -534,3 +534,65 @@ h3 {
   display: none;
 }
 
+.p-startWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.p-startWrap__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.p-startWrap__content {
+  background: white;
+  position: relative;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  padding: 70px 0;
+  box-sizing: border-box;
+}
+
+.p-startWrap__content:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+.p-startWrap__content .p-startComment {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.p-startWrap__content .p-startForm {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.p-startWrap__content .p-startForm__rule {
+  font-size: 0.8rem;
+}
+
+.p-startWrap__content .p-startForm__btn {
+  display: block;
+  width: 100%;
+  background-color: #ffc517;
+  color: white;
+  font-size: 1.6rem;
+  padding: 15px 0;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+

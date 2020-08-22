@@ -13,7 +13,7 @@
 
   <script src="https://kit.fontawesome.com/39ab84bfc8.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap" rel="stylesheet">
-  <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 
@@ -65,7 +65,7 @@
           <strong></strong>
         </span>
         
-        <input type="submit" class="c-btnRegister c-btn" value="送信">
+        <input type="submit" class="c-btnRegister c-btn" value="パスワード再設定">
       </form>
       
       <p class="c-form__comment">※メールアドレス宛に認証キーが届きます。</p>

@@ -1,0 +1,54 @@
+.p-startWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: $space_10l;
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__content {
+    background: $color_light100;
+    position: relative;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    font-size: $font-size_l;
+    border-radius: 10px;
+    padding: $space_7l 0;
+    box-sizing: border-box;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -$space_3l;
+      left: 50%;
+      margin-left: -$space_l;
+      border: 15px solid transparent;
+      border-bottom: 15px solid $color_light100;
+    }
+    .p-startComment {
+      width: 50%;
+      margin: 0 auto;
+    }
+    .p-startForm {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: $space_5l;
+      &__rule {
+        font-size: 0.8rem;
+      }
+      &__btn {
+        display: block;
+        width: 100%;
+        background-color: $color_sub;
+        color: $color_light100;
+        font-size: $font-size_m;
+        padding: $space_l 0;
+        box-sizing: border-box;
+        margin-top: $space_l;
+      }
+    }
+  }
+}
