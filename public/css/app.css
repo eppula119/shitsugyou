@@ -596,3 +596,64 @@ h3 {
   margin-top: 15px;
 }
 
+.p-questWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.p-questWrap__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.p-questWrap__content {
+  background: white;
+  position: relative;
+  margin: 1.5em 0;
+  min-width: 120px;
+  max-width: 100%;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+
+.p-questWrap__content:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+.p-questWrap__content .p-questComment {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p-questWrap .p-answerForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.p-questWrap .p-answerForm__btn {
+  margin: 10px 0;
+  padding: 15px 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: solid 2px #8B98A2;
+}
+
+.p-questWrap__back {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+}
+

@@ -1,0 +1,53 @@
+.p-questWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: $space_xl;
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__content {
+    background: $color_light100;
+    position: relative;
+    margin: 1.5em 0;
+    min-width: 120px;
+    max-width: 100%;
+    font-size: $font-size_l;
+    border-radius: 10px;
+    padding: $space_2l 0;
+    box-sizing: border-box;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -$space_3l;
+      left: 50%;
+      margin-left: -$space_l;
+      border: 15px solid transparent;
+      border-bottom: 15px solid $color_light100;
+    }
+    .p-questComment {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  .p-answerForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    &__btn {
+      margin: $space_m 0;
+      padding: $space_l 0;
+      font-size: $font-size_l;
+      font-weight: bold;
+      border: solid 2px $color_dark075;
+    }
+  }
+  &__back {
+    display: block;
+    text-align: center;
+    font-size: $font-size_s;
+  }
+}
