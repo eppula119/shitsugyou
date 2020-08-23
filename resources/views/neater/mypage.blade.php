@@ -13,7 +13,7 @@
 
   <script src="https://kit.fontawesome.com/39ab84bfc8.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap" rel="stylesheet">
-  <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 
@@ -23,7 +23,7 @@
   <div class="p-headerItem">
     <div class="p-headerItem__logo">
       <a href="" class="p-topLink">
-        <img src="#" alt="" class="p-topLink__img">
+        <img src="/images/panda.png" alt="" class="p-topLink__img">
       </a>
     </div>
     <div class="p-headerItem__menu">
@@ -59,15 +59,15 @@
       <p class="p-heading1 p-heading">投稿した質問</p>
       <div class="p-postItem">
         <span class="p-postItem__text">なんでお金は減ってくの？</span>
-        <i class="far fa-comment p-postItem__icon"></i><span class="p-postItem__total">5</span>
+        <i class="far fa-comment p-postItem__icon"><span class="p-postTotal">5</span></i>
       </div>
       <div class="p-postItem">
         <span class="p-postItem__text">なんでお金は減ってくの？</span>
-        <i class="far fa-comment p-postItem__icon"></i><span class="p-postItem__total">5</span>
+        <i class="far fa-comment p-postItem__icon"><span class="p-postItem__total">5</span></i>
       </div>
       <div class="p-postItem">
         <span class="p-postItem__text">なんでお金は減ってくの？</span>
-        <i class="far fa-comment p-postItem__icon"></i><span class="p-postItem__total">5</span>
+        <i class="far fa-comment p-postItem__icon"><span class="p-postItem__total">5</span></i>
       </div>
       <p class="p-postMore"><i class="fas fa-arrow-right"></i>さらにみる</p>
 
@@ -77,15 +77,15 @@
       <p class="p-heading2 p-heading">回答した質問</p>
       <div class="p-answerItem">
         <span class="p-answerItem__text">なんでお金は減ってくの？</span>
-        <i class="far fa-comment p-answerItem__icon"></i><span class="p-answerItem__total">5</span>
+        <i class="far fa-comment p-answerItem__icon"><span class="p-answerItem__total">5</span></i>
       </div>
       <div class="p-answerItem">
         <span class="p-answerItem__text">なんでお金は減ってくの？</span>
-        <i class="far fa-comment p-answerItem__icon"></i><span class="p-answerItem__total">5</span>
+        <i class="far fa-comment p-answerItem__icon"><span class="p-answerItem__total">5</span></i>
       </div>
       <div class="p-answerItem">
         <span class="p-answerItem__text">なんでお金は減ってくの？</span>
-        <i class="far fa-comment p-answerItem__icon"></i><span class="p-answerItem__total">5</span>
+        <i class="far fa-comment p-answerItem__icon"><span class="p-answerItem__total">5</span></i>
       </div>
       <p class="p-answerMore"><i class="fas fa-arrow-right"></i>さらにみる</p>
     </section>
@@ -100,18 +100,18 @@
           <span class="p-profImgContainer__msg">画像の容量は10MB以内に抑えてください。</span>
         </div>
 
-        <span class="p-prof__heading">ニックネーム</span>
+        <p class="p-prof__heading">ニックネーム</p>
         <input type="text" class="p-prof__name">
         <span class="p-prof--err">16文字以内にしてください。</span>
         
-        <span class="p-prof__heading">メールアドレス</span>
+        <p class="p-prof__heading">メールアドレス</p>
         <input type="email" class="p-prof__email">
         <span class="p-prof--err">16文字以内にしてください。</span>
 
         <button class="p-prof__btn c-btn">変更する</button>
       
       </form>
-      <span class="p-passChange"><a href="#" class="p-passChange__link">パスワード変更</a></span>
+      <p class="p-passChange"><a href="#" class="p-passChange__link">パスワード変更</a></p>
     </section>    
     
   </div>

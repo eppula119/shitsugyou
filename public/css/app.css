@@ -266,7 +266,7 @@ h3 {
 
 .l-main {
   background-color: #FFEBCD;
-  height: 1000px;
+  height: 1500px;
 }
 
 .c-btn {
@@ -594,6 +594,164 @@ h3 {
   padding: 15px 0;
   box-sizing: border-box;
   margin-top: 15px;
+}
+
+.p-mypageWrap {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+}
+
+.p-mypageWrap__post,
+.p-mypageWrap__answer,
+.p-mypageWrap__prof {
+  margin-bottom: 30px;
+}
+
+.p-mypageWrap__post .p-heading,
+.p-mypageWrap__answer .p-heading,
+.p-mypageWrap__prof .p-heading {
+  padding-bottom: 6px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #8B98A2;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.p-mypageWrap__post .p-postItem,
+.p-mypageWrap__post .p-answerItem,
+.p-mypageWrap__answer .p-postItem,
+.p-mypageWrap__answer .p-answerItem,
+.p-mypageWrap__prof .p-postItem,
+.p-mypageWrap__prof .p-answerItem {
+  margin-bottom: 10px;
+  background: white;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  position: relative;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.p-mypageWrap__post .p-postItem__icon,
+.p-mypageWrap__post .p-answerItem__icon,
+.p-mypageWrap__answer .p-postItem__icon,
+.p-mypageWrap__answer .p-answerItem__icon,
+.p-mypageWrap__prof .p-postItem__icon,
+.p-mypageWrap__prof .p-answerItem__icon {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  font-size: 1.6rem;
+}
+
+.p-mypageWrap__post .p-postMore,
+.p-mypageWrap__post .p-answerMore,
+.p-mypageWrap__answer .p-postMore,
+.p-mypageWrap__answer .p-answerMore,
+.p-mypageWrap__prof .p-postMore,
+.p-mypageWrap__prof .p-answerMore {
+  text-align: right;
+}
+
+.p-mypageWrap__prof {
+  overflow: hidden;
+}
+
+.p-mypageWrap__prof .p-prof {
+  margin-top: 50px;
+}
+
+.p-mypageWrap__prof .p-prof .p-profImgContainer {
+  height: calc( 100px * 2 );
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.p-mypageWrap__prof .p-prof .p-profImgContainer__airDrop {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  border: solid 1px #C9D0D6;
+  border-radius: 100px;
+  line-height: 200px;
+  background-color: white;
+}
+
+.p-mypageWrap__prof .p-prof .p-profImgContainer__airDrop .p-userIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50%;
+  opacity: 0.1;
+  font-size: 8rem;
+}
+
+.p-mypageWrap__prof .p-prof .p-profImgContainer__airDrop .p-profImg {
+  opacity: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.p-mypageWrap__prof .p-prof .p-profImgContainer__msg {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.p-mypageWrap__prof .p-prof__heading {
+  font-size: 1.4rem;
+}
+
+.p-mypageWrap__prof .p-prof__name,
+.p-mypageWrap__prof .p-prof__email {
+  display: block;
+  width: 100%;
+  /* border: none; */
+  /* padding: 0px; */
+  border: none;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  font-size: 1.8rem;
+  letter-spacing: 6px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.p-mypageWrap__prof .p-prof--err {
+  color: #FF0A0A;
+  margin-bottom: 15px;
+}
+
+.p-mypageWrap__prof .p-prof__btn {
+  display: block;
+  width: 100%;
+  background-color: #ffc517;
+  color: white;
+  border: none;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  box-shadow: none;
+  margin-top: 30px;
+}
+
+.p-mypageWrap__prof .p-passChange {
+  display: inline-block;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  float: right;
+  margin-top: 20px;
 }
 
 .p-questWrap {
