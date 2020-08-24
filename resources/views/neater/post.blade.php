@@ -13,7 +13,7 @@
 
   <script src="https://kit.fontawesome.com/39ab84bfc8.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap" rel="stylesheet">
-  <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 
@@ -23,7 +23,7 @@
   <div class="p-headerItem">
     <div class="p-headerItem__logo">
       <a href="" class="p-topLink">
-        <img src="#" alt="" class="p-topLink__img">
+        <img src="/images/panda.png" style="width: 80px;" alt="" class="p-topLink__img">
       </a>
     </div>
     <div class="p-headerItem__menu">
@@ -55,7 +55,7 @@
 <main class="l-main">
 
   <div class="p-postWrap">
-    <img src="" alt="" class="p-postWrap__img p-neaterImg">
+    <img src="/images/panda.png" style="width: 80px;" alt="" class="p-postWrap__img p-neaterImg">
     <div class="p-postWrap__content c-comment">
       <p class="p-postComment">
        俺は休む。あとはみんなから情報もらえ。
@@ -69,7 +69,7 @@
       <span class="c-invalid" role="alert">
         <strong></strong>
       </span>
-      <span class="p-postHeading">カテゴリー</span>
+      <span class="p-postHeading p-headingCategory">カテゴリー</span>
       <select name="category_id" class="p-postCategory" v-model="category_id">
         <option value="1" class="p-selectCategory">失業給付</option>
         <option value="2" class="p-selectCategory">お金</option>

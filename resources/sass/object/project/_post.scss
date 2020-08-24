@@ -1,0 +1,71 @@
+.p-postWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: $space_xl;
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__content {
+    background: $color_light100;
+    position: relative;
+    margin: 1.5em 0;
+    min-width: 120px;
+    max-width: 100%;
+    font-size: $font-size_l;
+    border-radius: 10px;
+    padding: $space_2l $space_m;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: $space_6l;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -$space_3l;
+      left: 50%;
+      margin-left: -$space_l;
+      border: 15px solid transparent;
+      border-bottom: 15px solid $color_light100;
+    }
+    .p-questComment {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  &__form {
+
+    .p-postHeading {
+      display: block;
+      font-size: $font-size_l;
+      margin-bottom: $space_xl;
+    }
+    .p-headingCategory {
+      margin-top: $space_6l;
+    }
+    .p-postContent {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 10px;
+      resize: none;
+      padding: $space_xl;
+      letter-spacing: 5px;
+    }
+    .p-postCategory {
+      display: block;
+      width: 100%;
+      padding: $space_m $space_xl;
+      box-sizing: border-box;
+      font-size: $font-size_m;
+      letter-spacing: 6px;
+      -webkit-appearance: none;
+      appearance: none;
+      border: none;
+      border-radius: 10px;
+    }
+    
+  }
+}

@@ -344,6 +344,15 @@ h3 {
   background-color: #999999;
 }
 
+.c-btnPost {
+  display: block;
+  margin-top: 60px;
+  width: 100%;
+  padding: 15px 20px;
+  color: white;
+  background-color: #ffc517;
+}
+
 .c-formTitle {
   box-sizing: border-box;
   font-size: 2.2rem;
@@ -752,6 +761,83 @@ h3 {
   border-radius: 10px;
   float: right;
   margin-top: 20px;
+}
+
+.p-postWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.p-postWrap__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.p-postWrap__content {
+  background: white;
+  position: relative;
+  margin: 1.5em 0;
+  min-width: 120px;
+  max-width: 100%;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  padding: 25px 10px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.p-postWrap__content:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+.p-postWrap__content .p-questComment {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p-postWrap__form .p-postHeading {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.p-postWrap__form .p-headingCategory {
+  margin-top: 60px;
+}
+
+.p-postWrap__form .p-postContent {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  padding: 20px;
+  letter-spacing: 5px;
+}
+
+.p-postWrap__form .p-postCategory {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  letter-spacing: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  border: none;
+  border-radius: 10px;
 }
 
 .p-questWrap {
