@@ -1,0 +1,117 @@
+.p-resultWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: $space_xl;
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__content {
+    background: $color_light100;
+    position: relative;
+    margin: 1.5em 0;
+    min-width: 120px;
+    max-width: 100%;
+    font-size: $font-size_l;
+    border-radius: 10px;
+    padding: $space_2l 0;
+    box-sizing: border-box;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -$space_3l;
+      left: 50%;
+      margin-left: -$space_l;
+      border: 15px solid transparent;
+      border-bottom: 15px solid $color_light100;
+    }
+    .p-resultComment {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  &__property {
+    margin-bottom: $space_3l;
+    .p-resultHeading {
+      font-size: $font-size_l;
+      margin-bottom: $space_xl;
+    }
+    .p-propertyImg {
+      width: 100%;
+      display: flex;
+      justify-content:space-around;
+      &__img {
+        width: 50px;
+      }
+    }
+  }
+  &__flow {
+    margin-bottom: $space_3l;
+    .p-resultHeading {
+      font-size: $font-size_l;
+      margin-bottom: $space_3l;
+    }
+    .p-flowList {
+      font-size: $font-size_m;
+    }
+    .p-flowText {
+      display: inline-block;
+      margin-bottom: $space_3l;
+    }
+  }
+  &__last {
+    margin-bottom: $space_3l;
+    font-size: $font-size_l;
+  }
+  &__img2 {
+    width: 10%;
+    height: $space_6l;
+    float: left;
+  }
+  &__content2 {
+    position: relative;
+    top: $space_m;
+    display: inline-block;
+    margin: 0 0 $space_4l 15px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: $color_light100;
+    width: calc(90% - #{$space_xl});
+    border-radius: 8px;
+    .p-resultComment2 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  &__content2:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid $color_light100;
+  }
+  &__share {
+    width: 100%;
+    background-color: $color_sub;
+    text-align: center;
+    padding: $space_xl 0;
+    margin-bottom: $space_3l;
+  }
+  &__again {
+    text-align: center;
+    .p-againLink {
+      padding-bottom: 3px;
+      box-sizing: border-box;
+      border-bottom: solid 1px $color_dark075;
+    }
+  }
+  
+}

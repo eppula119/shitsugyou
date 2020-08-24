@@ -13,7 +13,7 @@
 
   <script src="https://kit.fontawesome.com/39ab84bfc8.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap" rel="stylesheet">
-  <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 
@@ -23,7 +23,7 @@
   <div class="p-headerItem">
     <div class="p-headerItem__logo">
       <a href="" class="p-topLink">
-        <img src="#" alt="" class="p-topLink__img">
+        <img src="/images/panda.png" alt="" class="p-topLink__img">
       </a>
     </div>
     <div class="p-headerItem__menu">
@@ -54,25 +54,53 @@
 
 <main class="l-main">
   <div class="p-resultWrap">
-    <img src="" alt="" class="p-resultWrap__img p-neaterImg">
+    <img src="/images/panda.png" style="width: 80px;" alt="" class="p-resultWrap__img p-neaterImg">
     <div class="p-resultWrap__content c-comment">
       <p class="p-resultComment">
         ん？お前12~13万円もらえる可能性あるぞ
       </p>
     </div>
-    <section class="p-resultWrap__property"></section>
-    <section class="p-resultWrap__flow"></section>
-    <section class="p-resultWrap__last"></section>
+    <section class="p-resultWrap__property">
+      <p class="p-resultHeading">1.持ち物</p>
+      <div class="p-propertyImg">
+        <img src="/images/hannko.png" alt="" class="p-propertyImg__img">
+        <img src="/images/memo.png" alt="" class="p-propertyImg__img">
+        <img src="/images/pen.png" alt="" class="p-propertyImg__img">
+      </div>
+      
+    </section>
+    <section class="p-resultWrap__flow">
+      <p class="p-resultHeading">2.流れ</p>
+      <p class="p-flowList">(1)書類に書く</p>
+      <span class="p-flowText">
+        会社からもらった書類を書く。
+      </span>
+      <p class="p-flowList">(2)面接をする</p>
+      <span class="p-flowText">
+        会社からもらった書類を書く。
+      </span>
+      <p class="p-flowList">(3)2時間講義を聞く</p>
+      <span class="p-flowText">
+        会社からもらった書類を書く。
+      </span>
+      <p class="p-flowList">(4)月に2回行く</p>
+      <span class="p-flowText">
+        会社からもらった書類を書く。
+      </span>
+    </section>
+    <section class="p-resultWrap__last">
+      <p class="p-resultHeading">3.振り込まれる</p>
+    </section>
 
-    <img src="" alt="" class="p-resutWrap__img2 p-neaterImg">
+    <img src="/images/panda.png" style="width: 50px;" alt="" class="p-resultWrap__img2 p-neaterImg">
     <div class="p-resultWrap__content2 c-comment">
-      <p class="p-resultComment">
-        難しいこと考えずにとりあえずハローワークに行け。
+      <p class="p-resultComment2">
+        左ふきだし文
       </p>
     </div>
 
     <div class="p-resultWrap__share">
-      <img src="" alt="" class="p-shareIcon"><span class="p-shareText">TWEET</span>
+      <span class="p-shareText"><i class="fab fa-twitter"></i>TWEET</span>
     </div>
 
     <p class="p-resultWrap__again"><a href="#" class="p-againLink">もう一度試してみる</a></p>

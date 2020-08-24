@@ -815,3 +815,140 @@ h3 {
   font-size: 1.4rem;
 }
 
+.p-resultWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.p-resultWrap__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.p-resultWrap__content {
+  background: white;
+  position: relative;
+  margin: 1.5em 0;
+  min-width: 120px;
+  max-width: 100%;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+
+.p-resultWrap__content:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+.p-resultWrap__content .p-resultComment {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p-resultWrap__property {
+  margin-bottom: 30px;
+}
+
+.p-resultWrap__property .p-resultHeading {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.p-resultWrap__property .p-propertyImg {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-resultWrap__property .p-propertyImg__img {
+  width: 50px;
+}
+
+.p-resultWrap__flow {
+  margin-bottom: 30px;
+}
+
+.p-resultWrap__flow .p-resultHeading {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.p-resultWrap__flow .p-flowList {
+  font-size: 1.6rem;
+}
+
+.p-resultWrap__flow .p-flowText {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.p-resultWrap__last {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.p-resultWrap__img2 {
+  width: 10%;
+  height: 60px;
+  float: left;
+}
+
+.p-resultWrap__content2 {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  margin: 0 0 40px 15px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: white;
+  width: calc(90% - 20px);
+  border-radius: 8px;
+}
+
+.p-resultWrap__content2 .p-resultComment2 {
+  margin: 0;
+  padding: 0;
+}
+
+.p-resultWrap__content2:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid white;
+}
+
+.p-resultWrap__share {
+  width: 100%;
+  background-color: #ffc517;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.p-resultWrap__again {
+  text-align: center;
+}
+
+.p-resultWrap__again .p-againLink {
+  padding-bottom: 3px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #8B98A2;
+}
+
