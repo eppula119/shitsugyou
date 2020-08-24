@@ -1,4 +1,12 @@
 
+.p-header {
+  height: $space_10l;
+  .p-headerItem{
+    &__logo {
+      top: 40%;
+    }
+  }
+}
 .p-headerItem {
   height: 100%;
   position: relative;
@@ -30,7 +38,23 @@
       box-sizing: border-box;
     }
     .p-headerMenu {
-      display: none;
+      // display: none;
+      position: absolute;
+      top: $space_xl;
+      background: $color_light100;
+      font-size: $font-size_s;
+      padding: $space_m;
+      box-sizing: border-box;
+      left: -$space_3l;
+      border-radius: 8px;
+      .p-menuList {
+        &__item {
+          margin-bottom: $space_m;
+        }
+        &__item:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 }

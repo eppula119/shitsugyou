@@ -353,6 +353,15 @@ h3 {
   background-color: #ffc517;
 }
 
+.c-logout {
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+}
+
 .c-formTitle {
   box-sizing: border-box;
   font-size: 2.2rem;
@@ -446,7 +455,8 @@ h3 {
   margin: 0 10px;
   box-sizing: border-box;
   font-size: 1.4rem;
-  border: solid 1px #E7EAEC;
+  border: solid 1px #8B98A2;
+  border-radius: 5px;
 }
 
 .c-pagenation__item .c-pageLink {
@@ -457,6 +467,81 @@ h3 {
   .c-pagenation__item {
     margin: 0 5px;
   }
+}
+
+.p-categorySearch {
+  display: inline-block;
+  position: absolute;
+  bottom: 6px;
+  left: 40px;
+  font-size: 1.4rem;
+}
+
+.p-categoryMenu {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 20%;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.p-categoryMenu .p-menuList__item {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.p-categoryMenu .p-menuList__item:last-child {
+  margin-bottom: 0;
+}
+
+.p-bordWrap {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.p-bordWrap .p-bordItem {
+  margin-bottom: 30px;
+  background: white;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  position: relative;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.p-bordWrap .p-bordItem__category {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: #ffc517;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.p-bordWrap .p-bordItem__text {
+  display: block;
+  margin-top: 12px;
+}
+
+.p-bordWrap .p-bordItem__name {
+  position: absolute;
+  right: 58px;
+  bottom: 1px;
+  font-size: 1.4rem;
+  color: #ffc517;
+}
+
+.p-bordWrap .p-bordItem__icon {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  font-size: 1.6rem;
 }
 
 .p-authForm {
@@ -501,6 +586,14 @@ h3 {
   text-align: right;
 }
 
+.p-header {
+  height: 100px;
+}
+
+.p-header .p-headerItem__logo {
+  top: 40%;
+}
+
 .p-headerItem {
   height: 100%;
   position: relative;
@@ -540,7 +633,22 @@ h3 {
 }
 
 .p-headerItem__menu .p-headerMenu {
-  display: none;
+  position: absolute;
+  top: 20px;
+  background: white;
+  font-size: 1.4rem;
+  padding: 10px;
+  box-sizing: border-box;
+  left: -30px;
+  border-radius: 8px;
+}
+
+.p-headerItem__menu .p-headerMenu .p-menuList__item {
+  margin-bottom: 10px;
+}
+
+.p-headerItem__menu .p-headerMenu .p-menuList__item:last-child {
+  margin-bottom: 0;
 }
 
 .p-startWrap {

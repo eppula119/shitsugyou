@@ -73,3 +73,12 @@
   color: $color_light100;
   background-color: $color_sub;
 }
+
+.c-logout {
+  background-color: $color_light100;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+}
