@@ -1,0 +1,154 @@
+.p-categoryMenu {
+  display: none;
+}
+.p-headerMenu {
+  display: none;
+}
+
+// ===================　ヘッダー　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+.p-bordDetailWrap {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: $space_8l;
+  &__content {
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: $space_6l;
+    .p-faceicon {
+    float: left;
+    margin-right: -$space_5l;
+    width: $space_4l;
+    &__img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+  .p-says {
+    display: inline-block;
+    position: relative; 
+    margin: 0 0 0 $space_6l;
+    padding: $space_l $space_xl $space_m $space_xl;
+    font-size: $font-size_m;
+    line-height: 1.6;
+    // max-width: 250px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 87%;
+    background: $color_light100;
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    &__main {
+      margin: 0 ;
+      padding: 0;
+      margin-bottom: $space_3l;
+    }
+    .p-replyBtn {
+      background-color: $color_light100;
+      border: solid 1px $color_dark050;
+      border-radius: 20px;
+      padding-inline-start: 3px $space_m;
+      color: $color_dark050;
+    }
+    .p-postCategory, .p-postDate {
+      float: right;
+      font-size: $font-size_xs;
+      display: inline-block;
+      padding: $space_s 0;
+      box-sizing: border-box;
+    }
+    .p-postCategory {
+      margin-right: $space_xl;
+      background-color: $color_sub;
+      color: $color_light100;
+      padding: $space_s $space_m;
+      border-radius: 8px;
+    }
+  }
+  .p-says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 3px; 
+    left: -19px;
+    border: 8px solid transparent;
+    border-right: 18px solid $color_light100;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+  }
+    
+  }
+  
+
+  &__heading {
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    border-bottom: solid 1px $color_dark075;
+    font-size: $font-size_l;
+    margin-bottom: $space_4l;
+  }
+  
+  .p-replyWrap, .p-returnWrap {
+    
+    margin-bottom: $space_3l;
+    .p-faceicon {
+      float: right;
+      width: 10%;
+      &__img {
+        width: 100%;
+      }
+      &__name {
+      color: #ebb209;
+      font-size: $font-size_m;
+      }
+    }
+    .p-says {
+      width: calc(90% - #{$space_m});
+      display: inline-block;
+      position: relative; 
+      margin: 0 $space_m 0 0;
+      padding: $space_m;
+      border-radius: 12px;
+      background: $color_light100;
+      font-size: $font-size_xs;
+      box-sizing: border-box;
+      float: right;
+      margin-bottom: $space_3l;
+      box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.2);
+      &__main {
+        margin-bottom: $space_xl;
+      }
+      &__main:after {
+       content: "";
+      position: absolute;
+      top: 3px; 
+      right: -19px;
+      border: 8px solid transparent;
+      border-left: 18px solid $color_light100;
+      -webkit-transform: rotate(-35deg);
+      transform: rotate(-35deg);
+      }
+      &__name {
+        margin-bottom: $space_s;
+        color: #ebb209;
+        font-size: $font-size_m;
+      }
+      .p-postDate {
+        font-size: $font-size_default;
+      }
+      .p-replyBtn {
+        background-color: $color_light100;
+        border: solid 1px $color_dark050;
+        border-radius: 20px;
+        color: $color_dark050;
+        font-size: $font-size_xs;
+        float: right;
+      }
+      
+    }
+  }
+  .p-returnWrap {
+    width: calc(90% - 8px);
+  }
+}
