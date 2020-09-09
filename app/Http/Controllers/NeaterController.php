@@ -9,6 +9,6 @@ class NeaterController extends Controller
     //ホーム画面表示
     public function home()
     {
-        return view('neater.bord_detail');
+        return view('neater.result');
     }
 }

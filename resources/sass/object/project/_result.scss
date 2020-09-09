@@ -37,33 +37,109 @@
     .p-resultHeading {
       font-size: $font-size_l;
       margin-bottom: $space_xl;
+      font-weight: bold;
     }
-    .p-propertyImg {
-      width: 100%;
+    .p-property {
       display: flex;
-      justify-content:space-around;
-      &__img {
-        width: 50px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &__container {
+        width: 30%;
+        .p-propertyImg {
+          width: 150px;
+          height: 150px;
+        }
+        .p-propertyName {
+          display: block;
+          margin-top: $space_l;
+          margin-bottom: $space_xl;
+          font-weight: bold;
+        }
+      }
+      &__container:nth-child(4) {
+        .p-propertyName {
+          margin-bottom: 0;
+        }
       }
     }
+    
   }
   &__flow {
     margin-bottom: $space_3l;
     .p-resultHeading {
       font-size: $font-size_l;
       margin-bottom: $space_3l;
+      font-weight: bold;
     }
     .p-flowList {
       font-size: $font-size_m;
+      margin-bottom: $space_xl;
+      font-weight: bold;
     }
     .p-flowText {
       display: inline-block;
       margin-bottom: $space_3l;
     }
-  }
-  &__last {
-    margin-bottom: $space_3l;
-    font-size: $font-size_l;
+    .p-flowExe {
+      display: block;
+      margin-top: $space_3l;
+    }
+    .p-flowHoukokuImg {
+      width: 80%;
+      margin-bottom: $space_8l;
+    }
+    .p-flowImg {
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: $space_8l;
+    }
+    .p-flowImg:last-of-type {
+      margin-bottom: $space_3l;
+    }
+    .p-flowImgWrap {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: $space_8l;
+      &__item {
+        width: 30%;
+        .p-flowTwoImg {
+          width: 100%;
+        }
+        .p-flowImgName {
+          display: block;
+        }
+      }
+    }
+    .p-flowIcon {
+      width: 50px;
+      float: left;
+      height: 65px;
+    }
+    .p-flowContent {
+      position: relative;
+      top: 10px;
+      display: inline-block;
+      margin: 0 0 40px 15px;
+      padding: 7px 10px;
+      box-sizing: border-box;
+      min-width: 120px;
+      max-width: 100%;
+      color: #555;
+      font-size: 16px;
+      background: white;
+      width: calc(90% - 20px);
+      border-radius: 8px;
+    }
+    .p-flowContent:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -30px;
+      margin-top: -15px;
+      border: 15px solid transparent;
+      border-right: 15px solid $color_light100;
+    }
   }
   &__img2 {
     width: 10%;

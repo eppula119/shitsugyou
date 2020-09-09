@@ -269,6 +269,10 @@ h3 {
   height: 1500px;
 }
 
+.l-main2 {
+  height: 5000px;
+}
+
 .c-btn {
   background-color: #FFEBCD;
   border: none;
@@ -1056,16 +1060,33 @@ h3 {
 .p-resultWrap__property .p-resultHeading {
   font-size: 1.8rem;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.p-resultWrap__property .p-propertyImg {
-  width: 100%;
+.p-resultWrap__property .p-property {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.p-resultWrap__property .p-propertyImg__img {
-  width: 50px;
+.p-resultWrap__property .p-property__container {
+  width: 30%;
+}
+
+.p-resultWrap__property .p-property__container .p-propertyImg {
+  width: 150px;
+  height: 150px;
+}
+
+.p-resultWrap__property .p-property__container .p-propertyName {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.p-resultWrap__property .p-property__container:nth-child(4) .p-propertyName {
+  margin-bottom: 0;
 }
 
 .p-resultWrap__flow {
@@ -1075,10 +1096,13 @@ h3 {
 .p-resultWrap__flow .p-resultHeading {
   font-size: 1.8rem;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .p-resultWrap__flow .p-flowList {
   font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .p-resultWrap__flow .p-flowText {
@@ -1086,9 +1110,75 @@ h3 {
   margin-bottom: 30px;
 }
 
-.p-resultWrap__last {
+.p-resultWrap__flow .p-flowExe {
+  display: block;
+  margin-top: 30px;
+}
+
+.p-resultWrap__flow .p-flowHoukokuImg {
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.p-resultWrap__flow .p-flowImg {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.p-resultWrap__flow .p-flowImg:last-of-type {
   margin-bottom: 30px;
-  font-size: 1.8rem;
+}
+
+.p-resultWrap__flow .p-flowImgWrap {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.p-resultWrap__flow .p-flowImgWrap__item {
+  width: 30%;
+}
+
+.p-resultWrap__flow .p-flowImgWrap__item .p-flowTwoImg {
+  width: 100%;
+}
+
+.p-resultWrap__flow .p-flowImgWrap__item .p-flowImgName {
+  display: block;
+}
+
+.p-resultWrap__flow .p-flowIcon {
+  width: 50px;
+  float: left;
+  height: 65px;
+}
+
+.p-resultWrap__flow .p-flowContent {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  margin: 0 0 40px 15px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: white;
+  width: calc(90% - 20px);
+  border-radius: 8px;
+}
+
+.p-resultWrap__flow .p-flowContent:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid white;
 }
 
 .p-resultWrap__img2 {

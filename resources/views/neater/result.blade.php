@@ -52,7 +52,7 @@
 
 <!------------------------------------- メイン画面 ----------------------------------------------->
 
-<main class="l-main">
+<main class="l-main l-main2">
   <div class="p-resultWrap">
     <img src="/images/panda.png" style="width: 80px;" alt="" class="p-resultWrap__img p-neaterImg">
     <div class="p-resultWrap__content c-comment">
@@ -62,35 +62,105 @@
     </div>
     <section class="p-resultWrap__property">
       <p class="p-resultHeading">1.持ち物</p>
-      <div class="p-propertyImg">
-        <img src="/images/hannko.png" alt="" class="p-propertyImg__img">
-        <img src="/images/memo.png" alt="" class="p-propertyImg__img">
-        <img src="/images/pen.png" alt="" class="p-propertyImg__img">
+      <div class="p-property">
+        <div class="p-property__container">
+          <img src="/images/syashin.png" alt="" class="p-propertyImg">
+          <span class="p-propertyName">証明写真2枚<br />(縦3cm✖️横2.5cm)</span>
+        </div>
+        <div class="p-property__container">
+          <img src="/images/inkan.png" alt="" class="p-propertyImg">
+          <span class="p-propertyName">はんこ</span>
+        </div>
+        <div class="p-property__container">
+          <img src="/images/tsutyou.png" alt="" class="p-propertyImg">
+          <span class="p-propertyName">通帳orキャッシュカード</span>
+        </div>
+        <div class="p-property__container">
+          <img src="/images/mynumber.png" alt="" class="p-propertyImg">
+          <span class="p-propertyName">マイナンバーカード</span>
+          <span class="p-propertyExe">※マイナンバーカードない場合は、免許証など他の身分証明書が必要です。</span>
+        </div>
+        <div class="p-property__container">
+          <img src="/images/risyokuhyou.png" alt="" class="p-propertyImg">
+          <span class="p-propertyName">雇用保険被保険者離職票</span>
+        </div>
       </div>
       
     </section>
     <section class="p-resultWrap__flow">
       <p class="p-resultHeading">2.流れ</p>
-      <p class="p-flowList">(1)書類に書く</p>
+      <p class="p-flowList">①離職</p>
       <span class="p-flowText">
-        会社からもらった書類を書く。
+        離職後、離職票が自宅に届きます。
       </span>
-      <p class="p-flowList">(2)面接をする</p>
+      <p class="p-flowList">②ハローワークへ行く</p>
       <span class="p-flowText">
-        会社からもらった書類を書く。
+        上記の持ち物を忘れず、<br/>ハローワークへ行く。
       </span>
-      <p class="p-flowList">(3)2時間講義を聞く</p>
+      <img src="/images/hellowwork.png" alt="" class="p-flowImg">
+      <p class="p-flowList">③説明会へ行く</p>
       <span class="p-flowText">
-        会社からもらった書類を書く。
+        約2時間、係員の話を聞いたり、ビデオを見る。
       </span>
-      <p class="p-flowList">(4)月に2回行く</p>
+      <img src="/images/setumei.png" alt="" class="p-flowImg">
+
+      <img src="/images/panda.png" style="width: 50px;" alt="" class="p-flowIcon p-neaterImg">
+      <div class="p-flowContent c-comment">
+        <p class="p-flowComment">
+          左ふきだし文
+        </p>
+      </div>
+
+       <span class="p-flowText">
+        その後、「雇用保険受給資格者証」と<br/>「失業認定申告書」がもらえる。
+      </span>
+      <div class="p-flowImgWrap">
+        <div class="p-flowImgWrap__item">
+          <img src="/images/hihokensyasyou.png" alt="" class="p-flowTwoImg">
+          <span class="p-flowImgName">
+            雇用保険被保険者証
+          </span>
+        </div>
+        <div class="p-flowImgWrap__item">
+          <img src="/images/sitsugyouninteisyo.png" alt="" class="p-flowTwoImg">
+          <span class="p-flowImgName">
+            雇用保険被保険者証
+          </span>
+        </div>
+      
+      </div>
+      
+
+      <p class="p-flowList">④月に2回、仕事に就こうと努力する</p>
       <span class="p-flowText">
-        会社からもらった書類を書く。
+        ※例：求人への応募<br/>
+        ※不合格でも1回のカウント
       </span>
+      <img src="/images/oubo.png" alt="" class="p-flowImg">
+
+      <img src="/images/panda.png" style="width: 50px;" alt="" class="p-flowIcon p-neaterImg">
+      <div class="p-flowContent c-comment">
+        <p class="p-flowComment">
+          倍率20倍の求人に奇跡を信じて<br/>ポチッと応募したけど返事来なかったな。。。
+        </p>
+      </div>
+
+      <p class="p-flowList">⑤4週間に1度ハローワークへ行く</p>
+      <span class="p-flowText">
+        「失業認定報告書」に求職活動をしたことを記入。
+      </span>
+
+      <span class="p-flowExe">※書き方の例</span>
+      <img src="/images/shinkokusyo.png" alt="" class="p-flowHoukokuImg">
+
+
+      <p class="p-flowList">⑥入金！</p>
+      <span class="p-flowText">
+        ④でハローワークへ行った日から<br />約１週間ほどでお金が振り込まれる。
+      </span>
+      <img src="/images/tyokin.png" alt="" class="p-flowImg">
     </section>
-    <section class="p-resultWrap__last">
-      <p class="p-resultHeading">3.振り込まれる</p>
-    </section>
+    
 
     <img src="/images/panda.png" style="width: 50px;" alt="" class="p-resultWrap__img2 p-neaterImg">
     <div class="p-resultWrap__content2 c-comment">
