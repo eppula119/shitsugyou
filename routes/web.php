@@ -13,7 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+// APIのURL以外のリクエストに対してはindexテンプレート返す
+// 画面遷移はフロントエンドのVueRouterが制御する
+// Route::get('/{any?}', function () {
+//   return view('auth.register');
+// })->where('any', '.+');
+
+// ーーーーーーーーーー認証系画面ーーーーーーーーーーーーーー
+
+// ユーザー登録画面表示
+Route::get('/register', function() {
+  return view('auth.register');
+}); 
+// ログイン画面表示
+Route::get('/login', function() {
+  return view('auth.login');
+}); 
+
 Route::get('/', 'NeaterController@home')->name('neater.home'); // TOPページ表示

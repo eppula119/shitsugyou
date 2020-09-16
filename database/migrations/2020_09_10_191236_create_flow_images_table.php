@@ -14,8 +14,14 @@ class CreateFlowImagesTable extends Migration
     public function up()
     {
         Schema::create('flow_images', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('id');
+            $table->string('image');
+            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('flow_id');
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('flow_id')->references('id')->on('flows');
+            $table->dateTime('created_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
         });
     }
 

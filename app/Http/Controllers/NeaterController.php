@@ -11,4 +11,5 @@ class NeaterController extends Controller
     {
         return view('neater.result');
     }
+
 }

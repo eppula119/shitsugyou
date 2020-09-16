@@ -14,8 +14,15 @@ class CreateMessagesTable extends Migration
     public function up()
     {
         Schema::create('messages', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('id');
+            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('board_id');
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('board_id')->references('id')->on('boards');
+            $table->text('content');
+            $table->dateTime('created_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
+            $table->boolean('delete_flg')->nullable()->default(0);
         });
     }
 

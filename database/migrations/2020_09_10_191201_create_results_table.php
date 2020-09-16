@@ -14,8 +14,10 @@ class CreateResultsTable extends Migration
     public function up()
     {
         Schema::create('results', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('id');
+            $table->text('content');
+            $table->dateTime('created_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
         });
     }
 
